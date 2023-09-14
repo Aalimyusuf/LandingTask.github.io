@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(80deg, maroon, blue);
+}
+#box{
+    background-color: white;
+    padding: 15px 40px;
+    box-shadow: 15px 15px rgba(16, 16, 16, 0.1);
+}
+h3{
+    font-size: 30px;
+    font-family: monospace;
+    color: rgb(187, 187, 170);
+    padding-bottom: 20px;
+    letter-spacing:3px ;
+}
+#email{
+    width: 400px;
+    border: none;
+    outline: none;
+    padding: 15px 0px ;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.inputBox{
+    position: relative;
+}
+#text{
+    padding: 5px 0px;
+    display: flex;
+    font-size: 15px;
+    font-family: monospace;
+    color: rgb(187, 187, 170);
+}
